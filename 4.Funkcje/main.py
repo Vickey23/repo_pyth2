@@ -13,7 +13,7 @@ def mnozenie(a, b):
 def dzielenie(a, b):
     if b == 0:
         print("nie dziel przez 0")
-        exit
+        return
     wynik = a / b
     print(wynik)
 
